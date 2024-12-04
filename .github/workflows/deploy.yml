@@ -12,7 +12,7 @@ jobs:
         uses: appleboy/ssh-action@v1.2.0
         with:
           host: 38.242.243.61
-          username: kimang
+          username: vireak
           key: ${{ secrets.SSH_KEY }}
           #port: 1133
           script: |
